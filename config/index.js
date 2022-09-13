@@ -25,7 +25,7 @@ export const config = {
       // 想要发送的人的名字
       name: "宇宙无敌大宝贝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "omdxB6RymgF__v6_jBhU0m4lIdOA",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "nb49kR1WRa9QeMD3thVvq47SHRx35XecaP3IHH2_hyI",
       // 所在省份
