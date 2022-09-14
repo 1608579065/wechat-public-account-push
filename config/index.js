@@ -46,35 +46,20 @@ export const config = {
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "我的大宝贝", "year": "2001", "date": "10-10"},
         {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "03-26"},
-      ],
+                 ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
         {"keyword": "love_day", date: "2022-03-26"},
-      ]
-    },
-    {
-      name: "宇宙无敌大宝贝",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
-    },
-    // 你可以不断按格式往下增加
-    // ...
+                          ]
+    }, 
   ],
-
   /**
    * 【推送完成提醒】 相关，主要用来展示发送是否成功/失败的数据
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "	M8q5t1uK-LtKmWRTBCRQe2hvkc7xP4AODXB_3TeYhoQ",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -82,7 +67,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "omdxB6cky0AtSWWVviJWBxcVpYhI",
     },
     // 你可以不断按格式往下增加
     // ...
@@ -119,11 +104,7 @@ export const config = {
    * --- 是否展示周岁信息结束 ---
    */
   FESTIVALS: [
-    // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "我的大宝贝", "year": "2001", "date": "08-24", isShowAge: true},
-    {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "02-24"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "我的大宝贝", "year": "2001", "date": "10-10", isShowAge: true},
     {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "03-26"},
     // 你可以不断按格式往下增加
     // ...
