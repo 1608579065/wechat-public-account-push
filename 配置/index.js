@@ -30,7 +30,7 @@ export const config = {
       useTemplateId: "s90IHFhGmvHZ28UAFmKvngyL2kZGurIZGJEPgByZ2AE	",
       // 所在省份
       province: "安徽",
-      // 所在城市
+      // 所在城市 
       city: "合肥",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '10-10',
