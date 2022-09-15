@@ -15,7 +15,7 @@ export const config = {
 
   // 是否给文字设置多彩颜色, 和emoji不兼容
   // 如果您使用了微信测试号的模板中含有emoji表情，请填 false
-  isShowColor: true,
+  isShowColor: false,
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔
@@ -40,9 +40,6 @@ export const config = {
       openUrl: "",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "我的大宝贝", "year": "2001", "date": "08-24"},
-        {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "02-24"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "我的大宝贝", "year": "2001", "date": "10-10"},
         {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "03-26"},
@@ -59,7 +56,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "	M8q5t1uK-LtKmWRTBCRQe2hvkc7xP4AODXB_3TeYhoQ",
+  CALLBACK_TEMPLATE_ID: "",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -67,7 +64,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "omdxB6cky0AtSWWVviJWBxcVpYhI",
+      id: "",
     },
     // 你可以不断按格式往下增加
     // ...
